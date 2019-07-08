@@ -40,7 +40,7 @@ end
 def apply_clearance(cart)
   # code here
   cart.keys.each do |item|
-    if cart[:clearance]
+    if cart[item][:clearance]
 end
 
 def checkout(cart, coupons)
